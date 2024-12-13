@@ -124,3 +124,46 @@ button:hover {
     height: 50px;
     margin: 0 20px;
 }
+
+.index {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.index a {
+    margin: 0 15px;
+    font-size: 1.2em;
+    color: #2e4a1f;
+    text-decoration: none;
+}
+
+.index a:hover {
+    text-decoration: underline;
+}
+.index {
+    text-align: center;
+    margin-top: 20px;
+    background-color: #2e4a1f;
+    padding: 10px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.index a {
+    margin: 0 15px;
+    font-size: 1.2em;
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.index a:hover {
+    background-color: #ffcc00;
+    color: #2e4a1f;
+}
+
+.index a:focus, .index a:active {
+    background-color: #ff9900;
+    color: #2e4a1f;
+}
