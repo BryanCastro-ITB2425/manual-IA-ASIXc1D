@@ -167,3 +167,22 @@ button:hover {
     background-color: #ff9900;
     color: #2e4a1f;
 }
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.volver-btn {
+    background-color: #2e4a1f;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.volver-btn:hover {
+    background-color: #1f3d1a;
+}
